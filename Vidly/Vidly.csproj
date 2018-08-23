@@ -232,6 +232,14 @@
     <Compile Include="Migrations\201808230658213_insertMemberShip-types.Designer.cs">
       <DependentUpon>201808230658213_insertMemberShip-types.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808230858584_CustomerBirthdate.cs" />
+    <Compile Include="Migrations\201808230858584_CustomerBirthdate.Designer.cs">
+      <DependentUpon>201808230858584_CustomerBirthdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808230900316_CustomerBirthdate1.cs" />
+    <Compile Include="Migrations\201808230900316_CustomerBirthdate1.Designer.cs">
+      <DependentUpon>201808230900316_CustomerBirthdate1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -378,6 +386,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808230658213_insertMemberShip-types.resx">
       <DependentUpon>201808230658213_insertMemberShip-types.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808230858584_CustomerBirthdate.resx">
+      <DependentUpon>201808230858584_CustomerBirthdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808230900316_CustomerBirthdate1.resx">
+      <DependentUpon>201808230900316_CustomerBirthdate1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
