@@ -224,6 +224,14 @@
     <Compile Include="Migrations\201808220719432_applyannotationtoCustomerName.Designer.cs">
       <DependentUpon>201808220719432_applyannotationtoCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808230657285_MembershipTypeName.cs" />
+    <Compile Include="Migrations\201808230657285_MembershipTypeName.Designer.cs">
+      <DependentUpon>201808230657285_MembershipTypeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808230658213_insertMemberShip-types.cs" />
+    <Compile Include="Migrations\201808230658213_insertMemberShip-types.Designer.cs">
+      <DependentUpon>201808230658213_insertMemberShip-types.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -364,6 +372,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808220719432_applyannotationtoCustomerName.resx">
       <DependentUpon>201808220719432_applyannotationtoCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808230657285_MembershipTypeName.resx">
+      <DependentUpon>201808230657285_MembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808230658213_insertMemberShip-types.resx">
+      <DependentUpon>201808230658213_insertMemberShip-types.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
