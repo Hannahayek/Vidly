@@ -59,13 +59,13 @@ namespace Vidly.Controllers
                 return HttpNotFound();
             return View(movie);
         }
-        private IEnumerable<Movie> GetMovie()
-        {
-            return new List<Movie>
-            {
-                new Movie { Id = 1, Name = "SuperMan" },
-                new Movie { Id = 2, Name = "TomHanks" }
-            };
+        //private IEnumerable<Movie> GetMovie()
+        //{
+        //    return new List<Movie>
+        //    {
+        //        new Movie { Id = 1, Name = "SuperMan" },
+        //        new Movie { Id = 2, Name = "TomHanks" }
+        //    };
         }
 
 
