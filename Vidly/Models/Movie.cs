@@ -12,8 +12,6 @@ namespace Vidly.Models
         public int Id { get; set; }
         public String Name { get; set; }
 
-
-       
         public Genre Genre { get; set; }
 
         [Display(Name = "Genre")]

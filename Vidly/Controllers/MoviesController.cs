@@ -84,7 +84,10 @@ namespace Vidly.Controllers
         public ActionResult Save(Movie movie)
         { //new movie
             if (movie.Id == 0)
+            {
+                movie.DateAdded = DateTime.Now;
                 _context.Movies.Add(movie);
+            }
             else
             {
                 var movieInDb = _context.Movies.SingleOrDefault(c => c.Id == movie.Id);
