@@ -31,30 +31,29 @@ namespace Vidly.Controllers
             var membershipTypes = _context.MembershipTypes.ToList();
             var viewModel = new CustomerFormViewModel
             {
+                Customer = new Customer(),
                 MembershipTypes = membershipTypes
             };
 
             return View("CustomerForm",viewModel);
         }
-
-          [HttpPost]
+        
+        [HttpPost]
         public ActionResult Save(Customer customer)
             
         {
             //validation 
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 var viewModel = new CustomerFormViewModel
                 {
-            Customer=customer,
-               MembershipTypes=_context.MembershipTypes.ToList()
+                    Customer = customer,
+                    MembershipTypes = _context.MembershipTypes.ToList()
                 };
                 return View("CustomerForm", viewModel);
             }
-
-            //new customer
-            if (customer.Id == 0)
-               _context.Customers.Add(customer);
+            if (customer.Id == 0) 
+                _context.Customers.Add(customer);
 
             else //update customer 
             {
