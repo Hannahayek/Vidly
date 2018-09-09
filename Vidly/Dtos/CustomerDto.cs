@@ -23,7 +23,8 @@ namespace Vidly.Dtos
 
 
         [Display(Name = "Date of Birth")]
-        [Min18YearsIfAMember]
+        //comment this when use ihttpaction result, will cause expeption 
+        //[Min18YearsIfAMember]
         public DateTime? BirthDate { get; set; }
 
 
