@@ -109,7 +109,6 @@ C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInp
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.pdb
-C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\ApplicationInsights.config
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\Vidly.dll.config
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\Vidly.dll
@@ -234,3 +233,5 @@ C:\Users\hayek\source\repos\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\System.Web.Http.xml
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Users\v-hahaye\source\repos\Vidly\Vidly\bin\AutoMapper.dll
+C:\Users\v-hahaye\source\repos\Vidly\Vidly\bin\AutoMapper.xml
