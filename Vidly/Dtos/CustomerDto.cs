@@ -20,7 +20,9 @@ namespace Vidly.Dtos
 
         
         public byte MembershipTypeId { get; set; }
-
+       
+        // we shouldnt add property for membershiptype so we created class membershipTypeDTO
+        public MembershipTypeDto MembershipType { get; set; }
 
         [Display(Name = "Date of Birth")]
         //comment this when use ihttpaction result, will cause expeption 
