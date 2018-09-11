@@ -38,7 +38,7 @@ namespace Vidly.Controllers.Api
 
         }
 
-
+        [Authorize(Roles = RoleName.CanManageMovies)]
         // POST /api/movies
         [HttpPost]
         public IHttpActionResult CreateMovie(MoviesDto movieDto)
@@ -57,6 +57,7 @@ namespace Vidly.Controllers.Api
 
         // PUT /api/movies/1
         [HttpPut]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult UpdateMovie(int id, MoviesDto movieDto)
 
 
@@ -75,7 +76,7 @@ namespace Vidly.Controllers.Api
 
             return Ok();
         }
-
+        [Authorize(Roles = RoleName.CanManageMovies)]
         // DELETE /api/movies/1
         [HttpDelete]
         public IHttpActionResult DeleteMovie(int id)
