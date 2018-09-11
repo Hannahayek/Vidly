@@ -234,6 +234,5 @@ C:\Users\hayek\source\repos\Vidly\Vidly\bin\System.Web.Http.xml
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\bin\AutoMapper.xml
-C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\AutoMapper.xml
