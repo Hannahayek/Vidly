@@ -24,9 +24,10 @@ namespace Vidly.Controllers
 
         public ViewResult Index()
         {
-           
+           if(User.IsInRole("CanManageMovies"))
 
-            return View();
+            return View("List");
+            return View("ReadOnlyList");
         }
         protected override void Dispose(bool disposing)
         {

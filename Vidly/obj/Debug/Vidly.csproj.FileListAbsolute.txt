@@ -237,3 +237,4 @@ C:\Users\v-hahaye\source\repos\Vidly\Vidly\bin\AutoMapper.xml
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\AutoMapper.xml
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
