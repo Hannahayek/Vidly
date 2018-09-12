@@ -1,0 +1,20 @@
+namespace Vidly.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class adddrivingliceneToApplicationUserPhone : DbMigration
+    {
+        public override void Up()
+        {
+            AlterColumn("dbo.AspNetUsers", "Phone", c => c.String(nullable: false, maxLength: 50));
+            AlterColumn("dbo.AspNetUsers", "DrivingLicense", c => c.String(nullable: false, maxLength: 255));
+        }
+        
+        public override void Down()
+        {
+            AlterColumn("dbo.AspNetUsers", "DrivingLicense", c => c.String(nullable: false, maxLength: 50));
+            AlterColumn("dbo.AspNetUsers", "Phone", c => c.String(nullable: false, maxLength: 255));
+        }
+    }
+}
