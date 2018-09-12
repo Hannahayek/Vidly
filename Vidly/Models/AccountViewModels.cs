@@ -58,7 +58,7 @@ namespace Vidly.Models
     public class RegisterViewModel
     {
         [Required]
-        [Display(Name = "Driving License")]
+        
         public string Phone { get; set; }
         [Required]
         [Display(Name = "Driving License")]
