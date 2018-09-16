@@ -251,8 +251,9 @@ C:\Users\hayek\source\repos\Vidly\Vidly\bin\Glimpse.AspNet.dll
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\Glimpse.Core.dll
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\Glimpse.EF6.dll
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\Glimpse.Mvc5.dll
-C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.adddrivingliceneToApplicationUser.resources
 C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.adddrivingliceneToApplicationUser1.resources
 C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.adddrivingliceneToApplicationUserPhone.resources
+C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.Rentals.resources
+C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.numberavailableinStock.resources
