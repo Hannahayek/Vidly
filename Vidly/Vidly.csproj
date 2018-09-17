@@ -233,6 +233,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="Controllers\RentalsController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
     <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
@@ -309,6 +310,10 @@
     <Compile Include="Migrations\201809161346142_numberavailableinStock.cs" />
     <Compile Include="Migrations\201809161346142_numberavailableinStock.Designer.cs">
       <DependentUpon>201809161346142_numberavailableinStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809170803446_otherpc.cs" />
+    <Compile Include="Migrations\201809170803446_otherpc.Designer.cs">
+      <DependentUpon>201809170803446_otherpc.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -613,6 +618,7 @@
     <Content Include="Views\Customers\CustomerForm.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
     <Content Include="Views\Movies\ReadOnlyList.cshtml" />
+    <Content Include="Views\Rentals\New.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -677,6 +683,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809161346142_numberavailableinStock.resx">
       <DependentUpon>201809161346142_numberavailableinStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809170803446_otherpc.resx">
+      <DependentUpon>201809170803446_otherpc.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
