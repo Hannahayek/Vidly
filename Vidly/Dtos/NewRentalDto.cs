@@ -8,8 +8,8 @@ namespace Vidly.Dtos
 {
     public class NewRentalDto
     {
-        public int CustomerId { get; set; }
-        public List<int> MoviesIds { get; set; }
-        public Customer Customer { get; internal set; }
+        public int customerId { get; set; }
+        public List<int> movieIds { get; set; }
+
     }
 }
