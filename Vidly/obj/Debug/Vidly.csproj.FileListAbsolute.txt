@@ -258,5 +258,5 @@ C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.Rentals.resou
 C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.numberavailableinStock.resources
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.Rentals.resources
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.numberavailableinStock.resources
-C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.otherpc.resources
+C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
