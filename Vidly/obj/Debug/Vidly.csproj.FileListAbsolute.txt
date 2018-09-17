@@ -237,7 +237,6 @@ C:\Users\v-hahaye\source\repos\Vidly\Vidly\bin\AutoMapper.xml
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\hayek\source\repos\Vidly\Vidly\bin\AutoMapper.xml
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
-C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.adddrivingliceneToApplicationUser.resources
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.adddrivingliceneToApplicationUser1.resources
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.adddrivingliceneToApplicationUserPhone.resources
@@ -257,3 +256,7 @@ C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.adddrivinglic
 C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.adddrivingliceneToApplicationUserPhone.resources
 C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.Rentals.resources
 C:\Users\hayek\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.numberavailableinStock.resources
+C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.Rentals.resources
+C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.numberavailableinStock.resources
+C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.otherpc.resources
+C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
