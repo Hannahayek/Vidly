@@ -32,7 +32,7 @@ namespace Vidly
                 //we got this from https://twitter.github.io/typeahead.js/examples/ time 6:20
                 "~/content/typeahead.css",
                 "~/content/toastr.css",
-                "~/Content/Site.css"));
+                "~/content/Site.css"));
         }
     }
 }
