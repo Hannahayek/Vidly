@@ -100,7 +100,7 @@
 
 
         //we add validation to form here
-        $('#newRental').validate({
+       var validator= $('#newRental').validate({
             submitHandler: function() {
                    $.ajax({
                         url: "/api/newRentals",
@@ -110,7 +110,13 @@
                     .done(function () {
                         //console.log("done");
                         toastr.success("Rentals succesffully created");
-                    })
+                        //clear after done
+                        $("#customer").typeahead("val", "");
+                        $("#movie").typeahead("val", "");
+                        $("#movies").empty();
+                        vm = { movieIds: [] };
+                           validator.resetForm();
+                       })
                     .fail(function () {
                         toastr.error("Someting worng");
                     });
