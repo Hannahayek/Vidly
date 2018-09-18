@@ -361,6 +361,7 @@
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.html" />
     <Content Include="App_Data\aspnet-Vidly-20180820022023.mdf" />
     <Content Include="App_Data\aspnet-Vidly-20180820022023_log.ldf">
       <DependentUpon>aspnet-Vidly-20180820022023.mdf</DependentUpon>
