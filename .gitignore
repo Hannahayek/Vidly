@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/Vidly/v15
+/packages/toastr.2.1.1/content/content
+/packages/toastr.2.1.1/content/scripts/toastr.min.js
+/packages/toastr.2.1.1/content/scripts/toastr.js

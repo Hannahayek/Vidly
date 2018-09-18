@@ -14,10 +14,13 @@ namespace Vidly.Controllers.Api
     public class MoviesController : ApiController
     {
         private ApplicationDbContext _context;
+
         public MoviesController()
         {
-            _context = new ApplicationDbContext();
+
+            _context=new ApplicationDbContext();
         }
+       
         public IEnumerable<MoviesDto> GetMovies(string query = null)
         {
             var moviesQuery = _context.Movies

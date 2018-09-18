@@ -92,10 +92,11 @@
                 data: vm
             })
                 .done(function () {
-                    console.log("done");
+                    //console.log("done");
+                    toastr.success("Rentals succesffully created");
                 })
                 .fail(function () {
-
+                    toastr.error("Someting worng");
                 });
         });
     });
