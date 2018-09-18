@@ -30,7 +30,7 @@ namespace Vidly
                 "~/Content/lumen-bootstrap.css",
                 "~/Content/datatables/css/datatables.bootstrap.css",
                 //we got this from https://twitter.github.io/typeahead.js/examples/ time 6:20
-                "~/Content/typeahead.css",
+                "~/content/typeahead.css",
                 "~/content/toastr.css",
                 "~/Content/Site.css"));
         }

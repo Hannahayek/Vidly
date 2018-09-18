@@ -49,8 +49,9 @@
         });
 
         $('#customer').typeahead({
-            minLength: 3,
-            highlight: true
+            hint: false,
+            highlight: true,
+            minLength: 3
         }, {
                 name: 'customers',
                 display: 'name',
@@ -69,8 +70,9 @@
         });
 
         $('#movie').typeahead({
-            minLength: 3,
-            highlight: true
+            hint: true,
+            highlight: true,
+            minLength: 3
         }, {
                 name: 'movies',
                 display: 'name',
