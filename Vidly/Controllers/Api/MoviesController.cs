@@ -20,7 +20,8 @@ namespace Vidly.Controllers.Api
         }
         // GET /api/movies
         public IEnumerable<MoviesDto> GetMovie()
-        {
+        {  
+
             return _context.Movies.
                 Include(m => m.Genre).
                 ToList().
