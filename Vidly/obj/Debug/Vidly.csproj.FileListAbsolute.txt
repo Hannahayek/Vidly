@@ -265,3 +265,6 @@ C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\v-hahaye\source\repos\Vidly\Vidly\bin\Elmah.dll
+C:\Users\hayek\source\repos\Vidly\Vidly\bin\Elmah.dll
+C:\Users\hayek\source\repos\Vidly\Vidly\bin\System.ValueTuple.dll
+C:\Users\hayek\source\repos\Vidly\Vidly\bin\System.ValueTuple.xml
